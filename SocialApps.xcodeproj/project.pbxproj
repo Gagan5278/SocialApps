@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6147D8E219ED092700FA7601 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6147D8E119ED092700FA7601 /* MainWindow.xib */; };
+		6147D93D19ED0F4B00FA7601 /* YahooViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D93B19ED0F4B00FA7601 /* YahooViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6147D93E19ED0F4B00FA7601 /* YahooViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6147D93C19ED0F4B00FA7601 /* YahooViewController.xib */; };
+		6147D94419ED149300FA7601 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D94219ED149300FA7601 /* InfoViewController.m */; };
+		6147D94519ED149300FA7601 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6147D94319ED149300FA7601 /* InfoViewController.xib */; };
+		6147D94C19ED183E00FA7601 /* ActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D94819ED183E00FA7601 /* ActivityIndicator.m */; };
+		6147D94D19ED183E00FA7601 /* ActivityIndicator.opacity in Resources */ = {isa = PBXBuildFile; fileRef = 6147D94919ED183E00FA7601 /* ActivityIndicator.opacity */; };
+		6147D94E19ED183E00FA7601 /* JPRadialActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D94B19ED183E00FA7601 /* JPRadialActivityIndicator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6147D98719ED4EC600FA7601 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 6147D95519ED4EC600FA7601 /* Base64Transcoder.c */; };
+		6147D98819ED4EC600FA7601 /* NSData+OAuthResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D95819ED4EC600FA7601 /* NSData+OAuthResponse.m */; };
+		6147D98919ED4EC600FA7601 /* NSDictionary+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D95A19ED4EC600FA7601 /* NSDictionary+QueryString.m */; };
+		6147D98A19ED4EC600FA7601 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D95C19ED4EC600FA7601 /* NSString+URLEncoding.m */; };
+		6147D98B19ED4EC600FA7601 /* YOAuthConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D95F19ED4EC600FA7601 /* YOAuthConsumer.m */; };
+		6147D98C19ED4EC600FA7601 /* YOAuthRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D96119ED4EC600FA7601 /* YOAuthRequest.m */; };
+		6147D98D19ED4EC600FA7601 /* YOAuthSignatureMethod_HMAC-SHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D96419ED4EC600FA7601 /* YOAuthSignatureMethod_HMAC-SHA1.m */; };
+		6147D98E19ED4EC600FA7601 /* YOAuthSignatureMethod_PLAINTEXT.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D96619ED4EC600FA7601 /* YOAuthSignatureMethod_PLAINTEXT.m */; };
+		6147D98F19ED4EC600FA7601 /* YOAuthToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D96819ED4EC600FA7601 /* YOAuthToken.m */; };
+		6147D99019ED4EC600FA7601 /* YOAuthUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D96A19ED4EC600FA7601 /* YOAuthUtil.m */; };
+		6147D99119ED4EC600FA7601 /* YahooSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D96E19ED4EC600FA7601 /* YahooSession.m */; };
+		6147D99219ED4EC600FA7601 /* YOSAccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D97019ED4EC600FA7601 /* YOSAccessToken.m */; };
+		6147D99319ED4EC600FA7601 /* YOSAuthRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D97219ED4EC600FA7601 /* YOSAuthRequest.m */; };
+		6147D99419ED4EC600FA7601 /* YOSBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D97419ED4EC600FA7601 /* YOSBaseRequest.m */; };
+		6147D99519ED4EC600FA7601 /* YOSOpenSocialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D97619ED4EC600FA7601 /* YOSOpenSocialRequest.m */; };
+		6147D99619ED4EC600FA7601 /* YOSRequestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D97819ED4EC600FA7601 /* YOSRequestClient.m */; };
+		6147D99719ED4EC600FA7601 /* YOSRequestToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D97A19ED4EC600FA7601 /* YOSRequestToken.m */; };
+		6147D99819ED4EC600FA7601 /* YOSResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D97C19ED4EC600FA7601 /* YOSResponseData.m */; };
+		6147D99919ED4EC600FA7601 /* YOSTokenStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D97E19ED4EC600FA7601 /* YOSTokenStore.m */; };
+		6147D99A19ED4EC600FA7601 /* YOSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D98019ED4EC600FA7601 /* YOSUser.m */; };
+		6147D99B19ED4EC600FA7601 /* YOSUserRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D98219ED4EC600FA7601 /* YOSUserRequest.m */; };
+		6147D99C19ED4EC600FA7601 /* YQLQueryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147D98419ED4EC600FA7601 /* YQLQueryRequest.m */; };
+		619BC01C19EFC69F00009CD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619BC01A19EFC66800009CD8 /* UIKit.framework */; };
+		619BC01D19EFC6AA00009CD8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619BC01819EFC65D00009CD8 /* SystemConfiguration.framework */; };
+		619BC01E19EFC6AE00009CD8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619BC01619EFC63A00009CD8 /* Security.framework */; };
+		619BC01F19EFC6B400009CD8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619BC01419EFC62A00009CD8 /* MediaPlayer.framework */; };
+		619BC02019EFC6BB00009CD8 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619BC01219EFC62000009CD8 /* CoreText.framework */; };
+		619BC02119EFC6C100009CD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619BC01019EFC61900009CD8 /* CoreGraphics.framework */; };
+		619BC02219EFC6C800009CD8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619BC00E19EFC60D00009CD8 /* CoreMotion.framework */; };
+		619BC02319EFC6D000009CD8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619BC00C19EFC60500009CD8 /* CoreLocation.framework */; };
+		619BC02419EFC6D600009CD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619BC00A19EFC5FB00009CD8 /* Foundation.framework */; };
+		619BC02519EFC6DD00009CD8 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619BC00819EFC5F100009CD8 /* AssetsLibrary.framework */; };
+		619BC02619EFC6E400009CD8 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619BC00619EFC5EC00009CD8 /* AddressBook.framework */; };
+		619BC02719EFC6ED00009CD8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6147D8E319ED0DBC00FA7601 /* CoreData.framework */; };
+		619BC03219EFC82500009CD8 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619BC02F19EFC82500009CD8 /* GoogleOpenSource.framework */; };
+		619BC03319EFC82500009CD8 /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 619BC03019EFC82500009CD8 /* GooglePlus.bundle */; };
+		619BC03419EFC82500009CD8 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619BC03119EFC82500009CD8 /* GooglePlus.framework */; };
+		619BC03919EFC86E00009CD8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619BC03719EFC86E00009CD8 /* LoginViewController.m */; };
+		619BC03A19EFC86E00009CD8 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 619BC03819EFC86E00009CD8 /* LoginViewController.xib */; };
+		619BC03C19EFF65D00009CD8 /* SharedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 619BC03B19EFF65D00009CD8 /* SharedImage.png */; };
+		619BC03E19EFF6EC00009CD8 /* LipidLayer.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 619BC03D19EFF6EC00009CD8 /* LipidLayer.mp4 */; };
+		619BC03F19EFF76700009CD8 /* SharedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 619BC03B19EFF65D00009CD8 /* SharedImage.png */; };
+		61E3E1E319ED0473003FFE6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E3E1E219ED0473003FFE6E /* main.m */; };
+		61E3E1E619ED0473003FFE6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E3E1E519ED0473003FFE6E /* AppDelegate.m */; };
+		61E3E1E819ED0473003FFE6E /* SocialApps-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 61E3E1E719ED0473003FFE6E /* SocialApps-Prefix.pch */; };
+		61E3E1EA19ED0473003FFE6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E3E1E919ED0473003FFE6E /* Images.xcassets */; };
+		61E3E1F619ED0473003FFE6E /* SocialAppsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E3E1F519ED0473003FFE6E /* SocialAppsTests.m */; };
+		61E3E20619ED0540003FFE6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E3E20419ED0540003FFE6E /* ViewController.m */; };
+		61E3E20719ED0540003FFE6E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61E3E20519ED0540003FFE6E /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61E3E1F019ED0473003FFE6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61E3E1D519ED0472003FFE6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61E3E1DC19ED0473003FFE6E;
+			remoteInfo = SocialApps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6147D8E119ED092700FA7601 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		6147D8E319ED0DBC00FA7601 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6147D93A19ED0F4B00FA7601 /* YahooViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YahooViewController.h; path = ../YahooViewController/YahooViewController.h; sourceTree = "<group>"; };
+		6147D93B19ED0F4B00FA7601 /* YahooViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YahooViewController.m; path = ../YahooViewController/YahooViewController.m; sourceTree = "<group>"; };
+		6147D93C19ED0F4B00FA7601 /* YahooViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YahooViewController.xib; path = ../YahooViewController/YahooViewController.xib; sourceTree = "<group>"; };
+		6147D94119ED149300FA7601 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		6147D94219ED149300FA7601 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		6147D94319ED149300FA7601 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		6147D94719ED183E00FA7601 /* ActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityIndicator.h; sourceTree = "<group>"; };
+		6147D94819ED183E00FA7601 /* ActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicator.m; sourceTree = "<group>"; };
+		6147D94919ED183E00FA7601 /* ActivityIndicator.opacity */ = {isa = PBXFileReference; lastKnownFileType = file; path = ActivityIndicator.opacity; sourceTree = "<group>"; };
+		6147D94A19ED183E00FA7601 /* JPRadialActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPRadialActivityIndicator.h; sourceTree = "<group>"; };
+		6147D94B19ED183E00FA7601 /* JPRadialActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPRadialActivityIndicator.m; sourceTree = "<group>"; };
+		6147D95519ED4EC600FA7601 /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		6147D95619ED4EC600FA7601 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		6147D95719ED4EC600FA7601 /* NSData+OAuthResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+OAuthResponse.h"; sourceTree = "<group>"; };
+		6147D95819ED4EC600FA7601 /* NSData+OAuthResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+OAuthResponse.m"; sourceTree = "<group>"; };
+		6147D95919ED4EC600FA7601 /* NSDictionary+QueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QueryString.h"; sourceTree = "<group>"; };
+		6147D95A19ED4EC600FA7601 /* NSDictionary+QueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QueryString.m"; sourceTree = "<group>"; };
+		6147D95B19ED4EC600FA7601 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		6147D95C19ED4EC600FA7601 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		6147D95D19ED4EC600FA7601 /* YOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOAuth.h; sourceTree = "<group>"; };
+		6147D95E19ED4EC600FA7601 /* YOAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOAuthConsumer.h; sourceTree = "<group>"; };
+		6147D95F19ED4EC600FA7601 /* YOAuthConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOAuthConsumer.m; sourceTree = "<group>"; };
+		6147D96019ED4EC600FA7601 /* YOAuthRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOAuthRequest.h; sourceTree = "<group>"; };
+		6147D96119ED4EC600FA7601 /* YOAuthRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOAuthRequest.m; sourceTree = "<group>"; };
+		6147D96219ED4EC600FA7601 /* YOAuthSignatureMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOAuthSignatureMethod.h; sourceTree = "<group>"; };
+		6147D96319ED4EC600FA7601 /* YOAuthSignatureMethod_HMAC-SHA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YOAuthSignatureMethod_HMAC-SHA1.h"; sourceTree = "<group>"; };
+		6147D96419ED4EC600FA7601 /* YOAuthSignatureMethod_HMAC-SHA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YOAuthSignatureMethod_HMAC-SHA1.m"; sourceTree = "<group>"; };
+		6147D96519ED4EC600FA7601 /* YOAuthSignatureMethod_PLAINTEXT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOAuthSignatureMethod_PLAINTEXT.h; sourceTree = "<group>"; };
+		6147D96619ED4EC600FA7601 /* YOAuthSignatureMethod_PLAINTEXT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOAuthSignatureMethod_PLAINTEXT.m; sourceTree = "<group>"; };
+		6147D96719ED4EC600FA7601 /* YOAuthToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOAuthToken.h; sourceTree = "<group>"; };
+		6147D96819ED4EC600FA7601 /* YOAuthToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOAuthToken.m; sourceTree = "<group>"; };
+		6147D96919ED4EC600FA7601 /* YOAuthUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOAuthUtil.h; sourceTree = "<group>"; };
+		6147D96A19ED4EC600FA7601 /* YOAuthUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOAuthUtil.m; sourceTree = "<group>"; };
+		6147D96C19ED4EC600FA7601 /* YahooSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YahooSDK.h; sourceTree = "<group>"; };
+		6147D96D19ED4EC600FA7601 /* YahooSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YahooSession.h; sourceTree = "<group>"; };
+		6147D96E19ED4EC600FA7601 /* YahooSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YahooSession.m; sourceTree = "<group>"; };
+		6147D96F19ED4EC600FA7601 /* YOSAccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSAccessToken.h; sourceTree = "<group>"; };
+		6147D97019ED4EC600FA7601 /* YOSAccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSAccessToken.m; sourceTree = "<group>"; };
+		6147D97119ED4EC600FA7601 /* YOSAuthRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSAuthRequest.h; sourceTree = "<group>"; };
+		6147D97219ED4EC600FA7601 /* YOSAuthRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSAuthRequest.m; sourceTree = "<group>"; };
+		6147D97319ED4EC600FA7601 /* YOSBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSBaseRequest.h; sourceTree = "<group>"; };
+		6147D97419ED4EC600FA7601 /* YOSBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSBaseRequest.m; sourceTree = "<group>"; };
+		6147D97519ED4EC600FA7601 /* YOSOpenSocialRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSOpenSocialRequest.h; sourceTree = "<group>"; };
+		6147D97619ED4EC600FA7601 /* YOSOpenSocialRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSOpenSocialRequest.m; sourceTree = "<group>"; };
+		6147D97719ED4EC600FA7601 /* YOSRequestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSRequestClient.h; sourceTree = "<group>"; };
+		6147D97819ED4EC600FA7601 /* YOSRequestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSRequestClient.m; sourceTree = "<group>"; };
+		6147D97919ED4EC600FA7601 /* YOSRequestToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSRequestToken.h; sourceTree = "<group>"; };
+		6147D97A19ED4EC600FA7601 /* YOSRequestToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSRequestToken.m; sourceTree = "<group>"; };
+		6147D97B19ED4EC600FA7601 /* YOSResponseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSResponseData.h; sourceTree = "<group>"; };
+		6147D97C19ED4EC600FA7601 /* YOSResponseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSResponseData.m; sourceTree = "<group>"; };
+		6147D97D19ED4EC600FA7601 /* YOSTokenStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSTokenStore.h; sourceTree = "<group>"; };
+		6147D97E19ED4EC600FA7601 /* YOSTokenStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSTokenStore.m; sourceTree = "<group>"; };
+		6147D97F19ED4EC600FA7601 /* YOSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSUser.h; sourceTree = "<group>"; };
+		6147D98019ED4EC600FA7601 /* YOSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSUser.m; sourceTree = "<group>"; };
+		6147D98119ED4EC600FA7601 /* YOSUserRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSUserRequest.h; sourceTree = "<group>"; };
+		6147D98219ED4EC600FA7601 /* YOSUserRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSUserRequest.m; sourceTree = "<group>"; };
+		6147D98319ED4EC600FA7601 /* YQLQueryRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQLQueryRequest.h; sourceTree = "<group>"; };
+		6147D98419ED4EC600FA7601 /* YQLQueryRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQLQueryRequest.m; sourceTree = "<group>"; };
+		619BC00619EFC5EC00009CD8 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		619BC00819EFC5F100009CD8 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		619BC00A19EFC5FB00009CD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		619BC00C19EFC60500009CD8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		619BC00E19EFC60D00009CD8 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		619BC01019EFC61900009CD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		619BC01219EFC62000009CD8 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		619BC01419EFC62A00009CD8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		619BC01619EFC63A00009CD8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		619BC01819EFC65D00009CD8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		619BC01A19EFC66800009CD8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		619BC02F19EFC82500009CD8 /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleOpenSource.framework; sourceTree = "<group>"; };
+		619BC03019EFC82500009CD8 /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlus.bundle; sourceTree = "<group>"; };
+		619BC03119EFC82500009CD8 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
+		619BC03619EFC86E00009CD8 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		619BC03719EFC86E00009CD8 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		619BC03819EFC86E00009CD8 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		619BC03B19EFF65D00009CD8 /* SharedImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SharedImage.png; sourceTree = "<group>"; };
+		619BC03D19EFF6EC00009CD8 /* LipidLayer.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = LipidLayer.mp4; sourceTree = "<group>"; };
+		61E3E1DD19ED0473003FFE6E /* SocialApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E3E1E119ED0473003FFE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E3E1E219ED0473003FFE6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61E3E1E419ED0473003FFE6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SocialApps/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		61E3E1E519ED0473003FFE6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SocialApps/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		61E3E1E719ED0473003FFE6E /* SocialApps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocialApps-Prefix.pch"; sourceTree = "<group>"; };
+		61E3E1E919ED0473003FFE6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		61E3E1EF19ED0473003FFE6E /* SocialAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E3E1F419ED0473003FFE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E3E1F519ED0473003FFE6E /* SocialAppsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialAppsTests.m; sourceTree = "<group>"; };
+		61E3E20319ED0540003FFE6E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61E3E20419ED0540003FFE6E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61E3E20519ED0540003FFE6E /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61E3E1DA19ED0473003FFE6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619BC02719EFC6ED00009CD8 /* CoreData.framework in Frameworks */,
+				619BC02619EFC6E400009CD8 /* AddressBook.framework in Frameworks */,
+				619BC03219EFC82500009CD8 /* GoogleOpenSource.framework in Frameworks */,
+				619BC02519EFC6DD00009CD8 /* AssetsLibrary.framework in Frameworks */,
+				619BC02419EFC6D600009CD8 /* Foundation.framework in Frameworks */,
+				619BC02319EFC6D000009CD8 /* CoreLocation.framework in Frameworks */,
+				619BC02219EFC6C800009CD8 /* CoreMotion.framework in Frameworks */,
+				619BC02119EFC6C100009CD8 /* CoreGraphics.framework in Frameworks */,
+				619BC02019EFC6BB00009CD8 /* CoreText.framework in Frameworks */,
+				619BC03419EFC82500009CD8 /* GooglePlus.framework in Frameworks */,
+				619BC01F19EFC6B400009CD8 /* MediaPlayer.framework in Frameworks */,
+				619BC01E19EFC6AE00009CD8 /* Security.framework in Frameworks */,
+				619BC01D19EFC6AA00009CD8 /* SystemConfiguration.framework in Frameworks */,
+				619BC01C19EFC69F00009CD8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E3E1EC19ED0473003FFE6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6147D8E519ED0DCC00FA7601 /* Yahoo */ = {
+			isa = PBXGroup;
+			children = (
+				6147D94F19ED4EC600FA7601 /* YahooSDK */,
+				6147D93F19ED146C00FA7601 /* LoginView */,
+			);
+			path = Yahoo;
+			sourceTree = "<group>";
+		};
+		6147D93F19ED146C00FA7601 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				6147D94019ED148400FA7601 /* AdditionalInformationView */,
+				6147D93A19ED0F4B00FA7601 /* YahooViewController.h */,
+				6147D93B19ED0F4B00FA7601 /* YahooViewController.m */,
+				6147D93C19ED0F4B00FA7601 /* YahooViewController.xib */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		6147D94019ED148400FA7601 /* AdditionalInformationView */ = {
+			isa = PBXGroup;
+			children = (
+				6147D94119ED149300FA7601 /* InfoViewController.h */,
+				6147D94219ED149300FA7601 /* InfoViewController.m */,
+				6147D94319ED149300FA7601 /* InfoViewController.xib */,
+			);
+			path = AdditionalInformationView;
+			sourceTree = "<group>";
+		};
+		6147D94619ED182C00FA7601 /* ProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				6147D94719ED183E00FA7601 /* ActivityIndicator.h */,
+				6147D94819ED183E00FA7601 /* ActivityIndicator.m */,
+				6147D94919ED183E00FA7601 /* ActivityIndicator.opacity */,
+				6147D94A19ED183E00FA7601 /* JPRadialActivityIndicator.h */,
+				6147D94B19ED183E00FA7601 /* JPRadialActivityIndicator.m */,
+			);
+			path = ProgressIndicator;
+			sourceTree = "<group>";
+		};
+		6147D94F19ED4EC600FA7601 /* YahooSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6147D95319ED4EC600FA7601 /* YOAuth */,
+				6147D96B19ED4EC600FA7601 /* YOSDK */,
+			);
+			path = YahooSDK;
+			sourceTree = "<group>";
+		};
+		6147D95319ED4EC600FA7601 /* YOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				6147D95419ED4EC600FA7601 /* Crypto */,
+				6147D95719ED4EC600FA7601 /* NSData+OAuthResponse.h */,
+				6147D95819ED4EC600FA7601 /* NSData+OAuthResponse.m */,
+				6147D95919ED4EC600FA7601 /* NSDictionary+QueryString.h */,
+				6147D95A19ED4EC600FA7601 /* NSDictionary+QueryString.m */,
+				6147D95B19ED4EC600FA7601 /* NSString+URLEncoding.h */,
+				6147D95C19ED4EC600FA7601 /* NSString+URLEncoding.m */,
+				6147D95D19ED4EC600FA7601 /* YOAuth.h */,
+				6147D95E19ED4EC600FA7601 /* YOAuthConsumer.h */,
+				6147D95F19ED4EC600FA7601 /* YOAuthConsumer.m */,
+				6147D96019ED4EC600FA7601 /* YOAuthRequest.h */,
+				6147D96119ED4EC600FA7601 /* YOAuthRequest.m */,
+				6147D96219ED4EC600FA7601 /* YOAuthSignatureMethod.h */,
+				6147D96319ED4EC600FA7601 /* YOAuthSignatureMethod_HMAC-SHA1.h */,
+				6147D96419ED4EC600FA7601 /* YOAuthSignatureMethod_HMAC-SHA1.m */,
+				6147D96519ED4EC600FA7601 /* YOAuthSignatureMethod_PLAINTEXT.h */,
+				6147D96619ED4EC600FA7601 /* YOAuthSignatureMethod_PLAINTEXT.m */,
+				6147D96719ED4EC600FA7601 /* YOAuthToken.h */,
+				6147D96819ED4EC600FA7601 /* YOAuthToken.m */,
+				6147D96919ED4EC600FA7601 /* YOAuthUtil.h */,
+				6147D96A19ED4EC600FA7601 /* YOAuthUtil.m */,
+			);
+			path = YOAuth;
+			sourceTree = "<group>";
+		};
+		6147D95419ED4EC600FA7601 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				6147D95519ED4EC600FA7601 /* Base64Transcoder.c */,
+				6147D95619ED4EC600FA7601 /* Base64Transcoder.h */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		6147D96B19ED4EC600FA7601 /* YOSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6147D96C19ED4EC600FA7601 /* YahooSDK.h */,
+				6147D96D19ED4EC600FA7601 /* YahooSession.h */,
+				6147D96E19ED4EC600FA7601 /* YahooSession.m */,
+				6147D96F19ED4EC600FA7601 /* YOSAccessToken.h */,
+				6147D97019ED4EC600FA7601 /* YOSAccessToken.m */,
+				6147D97119ED4EC600FA7601 /* YOSAuthRequest.h */,
+				6147D97219ED4EC600FA7601 /* YOSAuthRequest.m */,
+				6147D97319ED4EC600FA7601 /* YOSBaseRequest.h */,
+				6147D97419ED4EC600FA7601 /* YOSBaseRequest.m */,
+				6147D97519ED4EC600FA7601 /* YOSOpenSocialRequest.h */,
+				6147D97619ED4EC600FA7601 /* YOSOpenSocialRequest.m */,
+				6147D97719ED4EC600FA7601 /* YOSRequestClient.h */,
+				6147D97819ED4EC600FA7601 /* YOSRequestClient.m */,
+				6147D97919ED4EC600FA7601 /* YOSRequestToken.h */,
+				6147D97A19ED4EC600FA7601 /* YOSRequestToken.m */,
+				6147D97B19ED4EC600FA7601 /* YOSResponseData.h */,
+				6147D97C19ED4EC600FA7601 /* YOSResponseData.m */,
+				6147D97D19ED4EC600FA7601 /* YOSTokenStore.h */,
+				6147D97E19ED4EC600FA7601 /* YOSTokenStore.m */,
+				6147D97F19ED4EC600FA7601 /* YOSUser.h */,
+				6147D98019ED4EC600FA7601 /* YOSUser.m */,
+				6147D98119ED4EC600FA7601 /* YOSUserRequest.h */,
+				6147D98219ED4EC600FA7601 /* YOSUserRequest.m */,
+				6147D98319ED4EC600FA7601 /* YQLQueryRequest.h */,
+				6147D98419ED4EC600FA7601 /* YQLQueryRequest.m */,
+			);
+			path = YOSDK;
+			sourceTree = "<group>";
+		};
+		619BC00519EFC59A00009CD8 /* Google+ */ = {
+			isa = PBXGroup;
+			children = (
+				619BC03519EFC83D00009CD8 /* LoginViewController */,
+				619BC02E19EFC7D300009CD8 /* G+Framework */,
+			);
+			path = "Google+";
+			sourceTree = "<group>";
+		};
+		619BC02E19EFC7D300009CD8 /* G+Framework */ = {
+			isa = PBXGroup;
+			children = (
+				619BC02F19EFC82500009CD8 /* GoogleOpenSource.framework */,
+				619BC03019EFC82500009CD8 /* GooglePlus.bundle */,
+				619BC03119EFC82500009CD8 /* GooglePlus.framework */,
+			);
+			path = "G+Framework";
+			sourceTree = "<group>";
+		};
+		619BC03519EFC83D00009CD8 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				619BC03619EFC86E00009CD8 /* LoginViewController.h */,
+				619BC03719EFC86E00009CD8 /* LoginViewController.m */,
+				619BC03819EFC86E00009CD8 /* LoginViewController.xib */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		61E3E1D419ED0472003FFE6E = {
+			isa = PBXGroup;
+			children = (
+				61E3E1DF19ED0473003FFE6E /* SocialApps */,
+				61E3E1F219ED0473003FFE6E /* SocialAppsTests */,
+				61E3E1DE19ED0473003FFE6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61E3E1DE19ED0473003FFE6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61E3E1DD19ED0473003FFE6E /* SocialApps.app */,
+				61E3E1EF19ED0473003FFE6E /* SocialAppsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61E3E1DF19ED0473003FFE6E /* SocialApps */ = {
+			isa = PBXGroup;
+			children = (
+				619BC00519EFC59A00009CD8 /* Google+ */,
+				6147D94619ED182C00FA7601 /* ProgressIndicator */,
+				6147D8E519ED0DCC00FA7601 /* Yahoo */,
+				61E3E20219ED0531003FFE6E /* ViewController */,
+				61E3E1FF19ED0482003FFE6E /* AppDelegate */,
+				61E3E1E719ED0473003FFE6E /* SocialApps-Prefix.pch */,
+				61E3E1E919ED0473003FFE6E /* Images.xcassets */,
+				61E3E1E019ED0473003FFE6E /* Supporting Files */,
+			);
+			path = SocialApps;
+			sourceTree = "<group>";
+		};
+		61E3E1E019ED0473003FFE6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61E3E1E119ED0473003FFE6E /* Info.plist */,
+				61E3E1E219ED0473003FFE6E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61E3E1F219ED0473003FFE6E /* SocialAppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				61E3E1F519ED0473003FFE6E /* SocialAppsTests.m */,
+				61E3E1F319ED0473003FFE6E /* Supporting Files */,
+			);
+			path = SocialAppsTests;
+			sourceTree = "<group>";
+		};
+		61E3E1F319ED0473003FFE6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				619BC03B19EFF65D00009CD8 /* SharedImage.png */,
+				619BC03D19EFF6EC00009CD8 /* LipidLayer.mp4 */,
+				619BC01A19EFC66800009CD8 /* UIKit.framework */,
+				619BC01819EFC65D00009CD8 /* SystemConfiguration.framework */,
+				619BC01619EFC63A00009CD8 /* Security.framework */,
+				619BC01419EFC62A00009CD8 /* MediaPlayer.framework */,
+				619BC01219EFC62000009CD8 /* CoreText.framework */,
+				619BC01019EFC61900009CD8 /* CoreGraphics.framework */,
+				619BC00E19EFC60D00009CD8 /* CoreMotion.framework */,
+				619BC00C19EFC60500009CD8 /* CoreLocation.framework */,
+				619BC00A19EFC5FB00009CD8 /* Foundation.framework */,
+				619BC00819EFC5F100009CD8 /* AssetsLibrary.framework */,
+				619BC00619EFC5EC00009CD8 /* AddressBook.framework */,
+				6147D8E319ED0DBC00FA7601 /* CoreData.framework */,
+				61E3E1F419ED0473003FFE6E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61E3E1FF19ED0482003FFE6E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				61E3E1E419ED0473003FFE6E /* AppDelegate.h */,
+				61E3E1E519ED0473003FFE6E /* AppDelegate.m */,
+				6147D8E119ED092700FA7601 /* MainWindow.xib */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		61E3E20219ED0531003FFE6E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				61E3E20319ED0540003FFE6E /* ViewController.h */,
+				61E3E20419ED0540003FFE6E /* ViewController.m */,
+				61E3E20519ED0540003FFE6E /* ViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61E3E1DC19ED0473003FFE6E /* SocialApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E3E1F919ED0473003FFE6E /* Build configuration list for PBXNativeTarget "SocialApps" */;
+			buildPhases = (
+				61E3E1D919ED0473003FFE6E /* Sources */,
+				61E3E1DA19ED0473003FFE6E /* Frameworks */,
+				61E3E1DB19ED0473003FFE6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialApps;
+			productName = SocialApps;
+			productReference = 61E3E1DD19ED0473003FFE6E /* SocialApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61E3E1EE19ED0473003FFE6E /* SocialAppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E3E1FC19ED0473003FFE6E /* Build configuration list for PBXNativeTarget "SocialAppsTests" */;
+			buildPhases = (
+				61E3E1EB19ED0473003FFE6E /* Sources */,
+				61E3E1EC19ED0473003FFE6E /* Frameworks */,
+				61E3E1ED19ED0473003FFE6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61E3E1F119ED0473003FFE6E /* PBXTargetDependency */,
+			);
+			name = SocialAppsTests;
+			productName = SocialAppsTests;
+			productReference = 61E3E1EF19ED0473003FFE6E /* SocialAppsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61E3E1D519ED0472003FFE6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Gagan_Work;
+				TargetAttributes = {
+					61E3E1DC19ED0473003FFE6E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					61E3E1EE19ED0473003FFE6E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 61E3E1DC19ED0473003FFE6E;
+					};
+				};
+			};
+			buildConfigurationList = 61E3E1D819ED0472003FFE6E /* Build configuration list for PBXProject "SocialApps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 61E3E1D419ED0472003FFE6E;
+			productRefGroup = 61E3E1DE19ED0473003FFE6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61E3E1DC19ED0473003FFE6E /* SocialApps */,
+				61E3E1EE19ED0473003FFE6E /* SocialAppsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61E3E1DB19ED0473003FFE6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619BC03F19EFF76700009CD8 /* SharedImage.png in Resources */,
+				6147D94D19ED183E00FA7601 /* ActivityIndicator.opacity in Resources */,
+				6147D8E219ED092700FA7601 /* MainWindow.xib in Resources */,
+				619BC03319EFC82500009CD8 /* GooglePlus.bundle in Resources */,
+				61E3E1E819ED0473003FFE6E /* SocialApps-Prefix.pch in Resources */,
+				619BC03E19EFF6EC00009CD8 /* LipidLayer.mp4 in Resources */,
+				61E3E1EA19ED0473003FFE6E /* Images.xcassets in Resources */,
+				61E3E20719ED0540003FFE6E /* ViewController.xib in Resources */,
+				6147D94519ED149300FA7601 /* InfoViewController.xib in Resources */,
+				6147D93E19ED0F4B00FA7601 /* YahooViewController.xib in Resources */,
+				619BC03A19EFC86E00009CD8 /* LoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E3E1ED19ED0473003FFE6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619BC03C19EFF65D00009CD8 /* SharedImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61E3E1D919ED0473003FFE6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6147D98D19ED4EC600FA7601 /* YOAuthSignatureMethod_HMAC-SHA1.m in Sources */,
+				6147D98B19ED4EC600FA7601 /* YOAuthConsumer.m in Sources */,
+				6147D98C19ED4EC600FA7601 /* YOAuthRequest.m in Sources */,
+				6147D99A19ED4EC600FA7601 /* YOSUser.m in Sources */,
+				6147D94E19ED183E00FA7601 /* JPRadialActivityIndicator.m in Sources */,
+				6147D94419ED149300FA7601 /* InfoViewController.m in Sources */,
+				6147D94C19ED183E00FA7601 /* ActivityIndicator.m in Sources */,
+				6147D98E19ED4EC600FA7601 /* YOAuthSignatureMethod_PLAINTEXT.m in Sources */,
+				6147D99219ED4EC600FA7601 /* YOSAccessToken.m in Sources */,
+				6147D98819ED4EC600FA7601 /* NSData+OAuthResponse.m in Sources */,
+				6147D98A19ED4EC600FA7601 /* NSString+URLEncoding.m in Sources */,
+				61E3E20619ED0540003FFE6E /* ViewController.m in Sources */,
+				61E3E1E619ED0473003FFE6E /* AppDelegate.m in Sources */,
+				6147D98F19ED4EC600FA7601 /* YOAuthToken.m in Sources */,
+				619BC03919EFC86E00009CD8 /* LoginViewController.m in Sources */,
+				6147D99419ED4EC600FA7601 /* YOSBaseRequest.m in Sources */,
+				6147D99919ED4EC600FA7601 /* YOSTokenStore.m in Sources */,
+				6147D99519ED4EC600FA7601 /* YOSOpenSocialRequest.m in Sources */,
+				6147D99619ED4EC600FA7601 /* YOSRequestClient.m in Sources */,
+				6147D99719ED4EC600FA7601 /* YOSRequestToken.m in Sources */,
+				61E3E1E319ED0473003FFE6E /* main.m in Sources */,
+				6147D99019ED4EC600FA7601 /* YOAuthUtil.m in Sources */,
+				6147D98719ED4EC600FA7601 /* Base64Transcoder.c in Sources */,
+				6147D93D19ED0F4B00FA7601 /* YahooViewController.m in Sources */,
+				6147D99319ED4EC600FA7601 /* YOSAuthRequest.m in Sources */,
+				6147D98919ED4EC600FA7601 /* NSDictionary+QueryString.m in Sources */,
+				6147D99819ED4EC600FA7601 /* YOSResponseData.m in Sources */,
+				6147D99119ED4EC600FA7601 /* YahooSession.m in Sources */,
+				6147D99B19ED4EC600FA7601 /* YOSUserRequest.m in Sources */,
+				6147D99C19ED4EC600FA7601 /* YQLQueryRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E3E1EB19ED0473003FFE6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E3E1F619ED0473003FFE6E /* SocialAppsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61E3E1F119ED0473003FFE6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61E3E1DC19ED0473003FFE6E /* SocialApps */;
+			targetProxy = 61E3E1F019ED0473003FFE6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		61E3E1F719ED0473003FFE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "e0261a3b-5a48-4538-ac9a-1c9f6c19027f";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61E3E1F819ED0473003FFE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "e0261a3b-5a48-4538-ac9a-1c9f6c19027f";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61E3E1FA19ED0473003FFE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SocialApps/Google+",
+					"$(PROJECT_DIR)/SocialApps/Google+/G+Framework",
+				);
+				INFOPLIST_FILE = SocialApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e0261a3b-5a48-4538-ac9a-1c9f6c19027f";
+			};
+			name = Debug;
+		};
+		61E3E1FB19ED0473003FFE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SocialApps/Google+",
+					"$(PROJECT_DIR)/SocialApps/Google+/G+Framework",
+				);
+				INFOPLIST_FILE = SocialApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e0261a3b-5a48-4538-ac9a-1c9f6c19027f";
+			};
+			name = Release;
+		};
+		61E3E1FD19ED0473003FFE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SocialAppsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialApps.app/SocialApps";
+			};
+			name = Debug;
+		};
+		61E3E1FE19ED0473003FFE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SocialAppsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialApps.app/SocialApps";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61E3E1D819ED0472003FFE6E /* Build configuration list for PBXProject "SocialApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E3E1F719ED0473003FFE6E /* Debug */,
+				61E3E1F819ED0473003FFE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E3E1F919ED0473003FFE6E /* Build configuration list for PBXNativeTarget "SocialApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E3E1FA19ED0473003FFE6E /* Debug */,
+				61E3E1FB19ED0473003FFE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E3E1FC19ED0473003FFE6E /* Build configuration list for PBXNativeTarget "SocialAppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E3E1FD19ED0473003FFE6E /* Debug */,
+				61E3E1FE19ED0473003FFE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61E3E1D519ED0472003FFE6E /* Project object */;
+}
