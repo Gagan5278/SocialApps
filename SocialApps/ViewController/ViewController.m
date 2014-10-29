@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "YahooViewController.h"
 #import "LoginViewController.h"
+#import "WeChatViewController.h"
 @interface ViewController ()
 
 @end
@@ -52,8 +53,12 @@
                  cell.textLabel.text=@"Yahoo";//Yahoo Login
             break;
             case 1:
-                cell.textLabel.text=@"Google +";//Yahoo Login
+                cell.textLabel.text=@"Google +";//Google+ Login
             break;
+        case 2:
+            cell.textLabel.text=@"We Chat";//We Chat
+            break;
+
         default:
             break;
     }
@@ -76,6 +81,13 @@
             LoginViewController *loginView=[[LoginViewController alloc]init];
             [self.navigationController pushViewController:loginView animated:YES];
         }
+            break;
+            case 2:
+        {
+            WeChatViewController *object=[[WeChatViewController alloc]init];
+            [self.navigationController pushViewController:object animated:YES];
+        }
+            break;
         default:
             break;
     }

@@ -57,6 +57,30 @@
 		619BC03C19EFF65D00009CD8 /* SharedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 619BC03B19EFF65D00009CD8 /* SharedImage.png */; };
 		619BC03E19EFF6EC00009CD8 /* LipidLayer.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 619BC03D19EFF6EC00009CD8 /* LipidLayer.mp4 */; };
 		619BC03F19EFF76700009CD8 /* SharedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 619BC03B19EFF65D00009CD8 /* SharedImage.png */; };
+		619BC04519F00ADA00009CD8 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 619BC04419F00ADA00009CD8 /* libWeChatSDK.a */; };
+		619BC04A19F00B6400009CD8 /* WeChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619BC04819F00B6400009CD8 /* WeChatViewController.m */; };
+		619BC04B19F00B6400009CD8 /* WeChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 619BC04919F00B6400009CD8 /* WeChatViewController.xib */; };
+		619BC05F19F00DB000009CD8 /* CoreData.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 619BC04D19F00DB000009CD8 /* CoreData.pdf */; };
+		619BC06019F00DB000009CD8 /* cover_swbl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619BC04E19F00DB000009CD8 /* cover_swbl.jpg */; };
+		619BC06119F00DB000009CD8 /* Engadget.png in Resources */ = {isa = PBXBuildFile; fileRef = 619BC04F19F00DB000009CD8 /* Engadget.png */; };
+		619BC06219F00DB000009CD8 /* lindan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 619BC05019F00DB000009CD8 /* lindan.gif */; };
+		619BC06319F00DB000009CD8 /* ML.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 619BC05119F00DB000009CD8 /* ML.pdf */; };
+		619BC06419F00DB000009CD8 /* res1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619BC05219F00DB000009CD8 /* res1.jpg */; };
+		619BC06519F00DB000009CD8 /* res1thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 619BC05319F00DB000009CD8 /* res1thumb.png */; };
+		619BC06619F00DB000009CD8 /* res2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619BC05419F00DB000009CD8 /* res2.jpg */; };
+		619BC06719F00DB000009CD8 /* res2.png in Resources */ = {isa = PBXBuildFile; fileRef = 619BC05519F00DB000009CD8 /* res2.png */; };
+		619BC06819F00DB000009CD8 /* res3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619BC05619F00DB000009CD8 /* res3.jpg */; };
+		619BC06919F00DB000009CD8 /* res4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619BC05719F00DB000009CD8 /* res4.jpg */; };
+		619BC06A19F00DB000009CD8 /* res5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619BC05819F00DB000009CD8 /* res5.jpg */; };
+		619BC06B19F00DB000009CD8 /* res5thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 619BC05919F00DB000009CD8 /* res5thumb.png */; };
+		619BC06C19F00DB000009CD8 /* res6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 619BC05A19F00DB000009CD8 /* res6.gif */; };
+		619BC06D19F00DB000009CD8 /* res6thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 619BC05B19F00DB000009CD8 /* res6thumb.png */; };
+		619BC06E19F00DB000009CD8 /* res7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619BC05C19F00DB000009CD8 /* res7.jpg */; };
+		619BC06F19F00DB000009CD8 /* Test.xml in Resources */ = {isa = PBXBuildFile; fileRef = 619BC05D19F00DB000009CD8 /* Test.xml */; };
+		619BC07019F00DB000009CD8 /* wechatMsg_cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619BC05E19F00DB000009CD8 /* wechatMsg_cat.jpg */; };
+		619BC07419F00E1800009CD8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 619BC07119F00E1800009CD8 /* Icon.png */; };
+		619BC07519F00E1800009CD8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 619BC07219F00E1800009CD8 /* Icon@2x.png */; };
+		619BC07619F00E1800009CD8 /* micro_messenger.png in Resources */ = {isa = PBXBuildFile; fileRef = 619BC07319F00E1800009CD8 /* micro_messenger.png */; };
 		61E3E1E319ED0473003FFE6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E3E1E219ED0473003FFE6E /* main.m */; };
 		61E3E1E619ED0473003FFE6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E3E1E519ED0473003FFE6E /* AppDelegate.m */; };
 		61E3E1E819ED0473003FFE6E /* SocialApps-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 61E3E1E719ED0473003FFE6E /* SocialApps-Prefix.pch */; };
@@ -156,6 +180,33 @@
 		619BC03819EFC86E00009CD8 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		619BC03B19EFF65D00009CD8 /* SharedImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SharedImage.png; sourceTree = "<group>"; };
 		619BC03D19EFF6EC00009CD8 /* LipidLayer.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = LipidLayer.mp4; sourceTree = "<group>"; };
+		619BC04219F00AD100009CD8 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		619BC04319F00AD100009CD8 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		619BC04419F00ADA00009CD8 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		619BC04719F00B6400009CD8 /* WeChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatViewController.h; sourceTree = "<group>"; };
+		619BC04819F00B6400009CD8 /* WeChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatViewController.m; sourceTree = "<group>"; };
+		619BC04919F00B6400009CD8 /* WeChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeChatViewController.xib; sourceTree = "<group>"; };
+		619BC04D19F00DB000009CD8 /* CoreData.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CoreData.pdf; sourceTree = "<group>"; };
+		619BC04E19F00DB000009CD8 /* cover_swbl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover_swbl.jpg; sourceTree = "<group>"; };
+		619BC04F19F00DB000009CD8 /* Engadget.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Engadget.png; sourceTree = "<group>"; };
+		619BC05019F00DB000009CD8 /* lindan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lindan.gif; sourceTree = "<group>"; };
+		619BC05119F00DB000009CD8 /* ML.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ML.pdf; sourceTree = "<group>"; };
+		619BC05219F00DB000009CD8 /* res1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = res1.jpg; sourceTree = "<group>"; };
+		619BC05319F00DB000009CD8 /* res1thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = res1thumb.png; sourceTree = "<group>"; };
+		619BC05419F00DB000009CD8 /* res2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = res2.jpg; sourceTree = "<group>"; };
+		619BC05519F00DB000009CD8 /* res2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = res2.png; sourceTree = "<group>"; };
+		619BC05619F00DB000009CD8 /* res3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = res3.jpg; sourceTree = "<group>"; };
+		619BC05719F00DB000009CD8 /* res4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = res4.jpg; sourceTree = "<group>"; };
+		619BC05819F00DB000009CD8 /* res5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = res5.jpg; sourceTree = "<group>"; };
+		619BC05919F00DB000009CD8 /* res5thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = res5thumb.png; sourceTree = "<group>"; };
+		619BC05A19F00DB000009CD8 /* res6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = res6.gif; sourceTree = "<group>"; };
+		619BC05B19F00DB000009CD8 /* res6thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = res6thumb.png; sourceTree = "<group>"; };
+		619BC05C19F00DB000009CD8 /* res7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = res7.jpg; sourceTree = "<group>"; };
+		619BC05D19F00DB000009CD8 /* Test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Test.xml; sourceTree = "<group>"; };
+		619BC05E19F00DB000009CD8 /* wechatMsg_cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wechatMsg_cat.jpg; sourceTree = "<group>"; };
+		619BC07119F00E1800009CD8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		619BC07219F00E1800009CD8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		619BC07319F00E1800009CD8 /* micro_messenger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = micro_messenger.png; sourceTree = "<group>"; };
 		61E3E1DD19ED0473003FFE6E /* SocialApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E3E1E119ED0473003FFE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61E3E1E219ED0473003FFE6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -190,6 +241,7 @@
 				619BC01E19EFC6AE00009CD8 /* Security.framework in Frameworks */,
 				619BC01D19EFC6AA00009CD8 /* SystemConfiguration.framework in Frameworks */,
 				619BC01C19EFC69F00009CD8 /* UIKit.framework in Frameworks */,
+				619BC04519F00ADA00009CD8 /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +404,64 @@
 			path = LoginViewController;
 			sourceTree = "<group>";
 		};
+		619BC04019F00A9C00009CD8 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				619BC04C19F00DA100009CD8 /* Images */,
+				619BC04619F00B5200009CD8 /* WeChatViewController */,
+				619BC04119F00ABA00009CD8 /* WE Chat SDK */,
+			);
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+		619BC04119F00ABA00009CD8 /* WE Chat SDK */ = {
+			isa = PBXGroup;
+			children = (
+				619BC04419F00ADA00009CD8 /* libWeChatSDK.a */,
+				619BC04219F00AD100009CD8 /* WXApi.h */,
+				619BC04319F00AD100009CD8 /* WXApiObject.h */,
+			);
+			path = "WE Chat SDK";
+			sourceTree = "<group>";
+		};
+		619BC04619F00B5200009CD8 /* WeChatViewController */ = {
+			isa = PBXGroup;
+			children = (
+				619BC04719F00B6400009CD8 /* WeChatViewController.h */,
+				619BC04819F00B6400009CD8 /* WeChatViewController.m */,
+				619BC04919F00B6400009CD8 /* WeChatViewController.xib */,
+			);
+			path = WeChatViewController;
+			sourceTree = "<group>";
+		};
+		619BC04C19F00DA100009CD8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				619BC07119F00E1800009CD8 /* Icon.png */,
+				619BC07219F00E1800009CD8 /* Icon@2x.png */,
+				619BC07319F00E1800009CD8 /* micro_messenger.png */,
+				619BC04D19F00DB000009CD8 /* CoreData.pdf */,
+				619BC04E19F00DB000009CD8 /* cover_swbl.jpg */,
+				619BC04F19F00DB000009CD8 /* Engadget.png */,
+				619BC05019F00DB000009CD8 /* lindan.gif */,
+				619BC05119F00DB000009CD8 /* ML.pdf */,
+				619BC05219F00DB000009CD8 /* res1.jpg */,
+				619BC05319F00DB000009CD8 /* res1thumb.png */,
+				619BC05419F00DB000009CD8 /* res2.jpg */,
+				619BC05519F00DB000009CD8 /* res2.png */,
+				619BC05619F00DB000009CD8 /* res3.jpg */,
+				619BC05719F00DB000009CD8 /* res4.jpg */,
+				619BC05819F00DB000009CD8 /* res5.jpg */,
+				619BC05919F00DB000009CD8 /* res5thumb.png */,
+				619BC05A19F00DB000009CD8 /* res6.gif */,
+				619BC05B19F00DB000009CD8 /* res6thumb.png */,
+				619BC05C19F00DB000009CD8 /* res7.jpg */,
+				619BC05D19F00DB000009CD8 /* Test.xml */,
+				619BC05E19F00DB000009CD8 /* wechatMsg_cat.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		61E3E1D419ED0472003FFE6E = {
 			isa = PBXGroup;
 			children = (
@@ -373,6 +483,7 @@
 		61E3E1DF19ED0473003FFE6E /* SocialApps */ = {
 			isa = PBXGroup;
 			children = (
+				619BC04019F00A9C00009CD8 /* WeChat */,
 				619BC00519EFC59A00009CD8 /* Google+ */,
 				6147D94619ED182C00FA7601 /* ProgressIndicator */,
 				6147D8E519ED0DCC00FA7601 /* Yahoo */,
@@ -524,16 +635,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619BC07019F00DB000009CD8 /* wechatMsg_cat.jpg in Resources */,
 				619BC03F19EFF76700009CD8 /* SharedImage.png in Resources */,
+				619BC06519F00DB000009CD8 /* res1thumb.png in Resources */,
 				6147D94D19ED183E00FA7601 /* ActivityIndicator.opacity in Resources */,
 				6147D8E219ED092700FA7601 /* MainWindow.xib in Resources */,
+				619BC06E19F00DB000009CD8 /* res7.jpg in Resources */,
+				619BC06D19F00DB000009CD8 /* res6thumb.png in Resources */,
 				619BC03319EFC82500009CD8 /* GooglePlus.bundle in Resources */,
+				619BC06719F00DB000009CD8 /* res2.png in Resources */,
+				619BC07619F00E1800009CD8 /* micro_messenger.png in Resources */,
+				619BC06419F00DB000009CD8 /* res1.jpg in Resources */,
+				619BC06219F00DB000009CD8 /* lindan.gif in Resources */,
+				619BC06919F00DB000009CD8 /* res4.jpg in Resources */,
+				619BC06119F00DB000009CD8 /* Engadget.png in Resources */,
+				619BC06C19F00DB000009CD8 /* res6.gif in Resources */,
+				619BC07419F00E1800009CD8 /* Icon.png in Resources */,
+				619BC04B19F00B6400009CD8 /* WeChatViewController.xib in Resources */,
 				61E3E1E819ED0473003FFE6E /* SocialApps-Prefix.pch in Resources */,
+				619BC07519F00E1800009CD8 /* Icon@2x.png in Resources */,
 				619BC03E19EFF6EC00009CD8 /* LipidLayer.mp4 in Resources */,
+				619BC06819F00DB000009CD8 /* res3.jpg in Resources */,
+				619BC06F19F00DB000009CD8 /* Test.xml in Resources */,
+				619BC06619F00DB000009CD8 /* res2.jpg in Resources */,
 				61E3E1EA19ED0473003FFE6E /* Images.xcassets in Resources */,
+				619BC05F19F00DB000009CD8 /* CoreData.pdf in Resources */,
+				619BC06019F00DB000009CD8 /* cover_swbl.jpg in Resources */,
+				619BC06B19F00DB000009CD8 /* res5thumb.png in Resources */,
 				61E3E20719ED0540003FFE6E /* ViewController.xib in Resources */,
+				619BC06319F00DB000009CD8 /* ML.pdf in Resources */,
 				6147D94519ED149300FA7601 /* InfoViewController.xib in Resources */,
 				6147D93E19ED0F4B00FA7601 /* YahooViewController.xib in Resources */,
+				619BC06A19F00DB000009CD8 /* res5.jpg in Resources */,
 				619BC03A19EFC86E00009CD8 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -579,6 +712,7 @@
 				6147D93D19ED0F4B00FA7601 /* YahooViewController.m in Sources */,
 				6147D99319ED4EC600FA7601 /* YOSAuthRequest.m in Sources */,
 				6147D98919ED4EC600FA7601 /* NSDictionary+QueryString.m in Sources */,
+				619BC04A19F00B6400009CD8 /* WeChatViewController.m in Sources */,
 				6147D99819ED4EC600FA7601 /* YOSResponseData.m in Sources */,
 				6147D99119ED4EC600FA7601 /* YahooSession.m in Sources */,
 				6147D99B19ED4EC600FA7601 /* YOSUserRequest.m in Sources */,
@@ -696,6 +830,12 @@
 				);
 				INFOPLIST_FILE = SocialApps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SocialApps/WeChat/WE",
+					Chat,
+					SDK,
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "e0261a3b-5a48-4538-ac9a-1c9f6c19027f";
@@ -715,6 +855,12 @@
 				);
 				INFOPLIST_FILE = SocialApps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SocialApps/WeChat/WE",
+					Chat,
+					SDK,
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "e0261a3b-5a48-4538-ac9a-1c9f6c19027f";
